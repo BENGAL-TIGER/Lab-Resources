@@ -1,0 +1,10 @@
+name: youcan
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.7
+  - jupyter_contrib_nbextensions
+  - pint
+  - pip
+  - pip:
+      - CoolProp

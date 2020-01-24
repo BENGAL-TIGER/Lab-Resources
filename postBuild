@@ -1,0 +1,10 @@
+
+jupyter nbextension enable equation-numbering/main --sys-prefix
+julia -e 'import Pkg; 
+          Pkg.add("Plots");
+          Pkg.add("GR");
+          Pkg.clone("https://github.com/CoolProp/CoolProp.jl.git"); 
+          Pkg.update();
+          using CoolProp;
+          using Plots' 
+
